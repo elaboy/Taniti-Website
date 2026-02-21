@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Taniti – Home</title>
+  <title>Taniti – Lodging</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
@@ -16,49 +16,49 @@
 
   <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
     <div class="max-w-6xl mx-auto flex justify-center gap-1 py-3 px-4 flex-wrap">
-      <a href="index.html"          class="bg-teal-700 text-white px-4 py-2 rounded text-sm font-semibold">Home</a>
+      <a href="index.html"          class="text-gray-700 px-4 py-2 rounded text-sm font-semibold hover:bg-gray-100">Home</a>
       <a href="activities.html"     class="text-gray-700 px-4 py-2 rounded text-sm font-semibold hover:bg-gray-100">Activities</a>
-      <a href="lodging.html"        class="text-gray-700 px-4 py-2 rounded text-sm font-semibold hover:bg-gray-100">Lodging</a>
+      <a href="lodging.html"        class="bg-teal-700 text-white px-4 py-2 rounded text-sm font-semibold">Lodging</a>
       <a href="transportation.html" class="text-gray-700 px-4 py-2 rounded text-sm font-semibold hover:bg-gray-100">Transportation</a>
       <a href="faq.html"            class="text-gray-700 px-4 py-2 rounded text-sm font-semibold hover:bg-gray-100">FAQ</a>
     </div>
   </nav>
 
-  <main class="max-w-6xl mx-auto px-10 py-12 flex-1">
+  <main class="max-w-6xl mx-auto px-10 py-12 space-y-16 flex-1">
 
-    <p class="text-gray-600 leading-relaxed mb-10">
-      Taniti is a small, tropical island in the Pacific. While the island has an area of less than 500 square miles, 
-      the terrain is varied and includes both sandy and rocky beaches, a small but safe harbor, lush tropical rainforests, 
-      and a mountainous interior that includes a small, active volcano. Taniti has an indigenous population of about 20,000. 
-      Until a recent increase in tourism, most the Tanitian economy was dominated by fishing or agriculture.
-    </p>
-    <div class="grid md:grid-cols-3 gap-8">
+    <h2 class="text-3xl font-bold" style="font-family:'Merriweather',serif;">Where to Stay on Taniti</h2>
 
-      <a href="activities.html" class="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100 hover:shadow-md hover:border-teal-300 transition-all block">
-        <img src="resources/family-vacation.jpg" alt="Kids Snorkling" class="w-full h-44 object-cover">
-        <div class="p-4">
-          <h3 class="font-bold text-lg mb-1" style="font-family:'Merriweather',serif;">Endless fun</h3>
-          <p class="text-gray-500 text-sm leading-relaxed">Click here for more information!</p>
-        </div>
-      </a>
-
-      <a href="lodging.html" class="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100 hover:shadow-md hover:border-teal-300 transition-all block">
-        <img src="resources/Island-Vacation-Homes.jpeg" alt="House Rental" class="w-full h-44 object-cover">
-        <div class="p-4">
-          <h3 class="font-bold text-lg mb-1" style="font-family:'Merriweather',serif;">Take a break</h3>
-          <p class="text-gray-500 text-sm leading-relaxed">Click here for more information!</p>
-        </div>
-      </a>
-
-      <a href="transportation.html" class="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-100 hover:shadow-md hover:border-teal-300 transition-all block">
-        <img src="resources/trolly.jpg" alt="Trolly" class="w-full h-44 object-cover">
-        <div class="p-4">
-          <h3 class="font-bold text-lg mb-1" style="font-family:'Merriweather',serif;">Explore</h3>
-          <p class="text-gray-500 text-sm leading-relaxed">Click here for more information!</p>
-        </div>
-      </a>
-
+    <div class="flex flex-col md:flex-row-reverse gap-8 items-center">
+      <img src="resources/Luxury-Hotel.jpg" alt="Luxury Resorts" class="rounded-lg w-full md:w-1/2 h-56 object-cover flex-shrink-0">
+      <div>
+        <h3 class="text-xl font-bold mb-3" style="font-family:'Merriweather',serif;">Luxury Beachfront Resorts</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Taniti has a wide variety of lodging that ranges from an inexpensive hostel to one large, four-star resort. 
+        </p>
+      </div>
     </div>
+
+    <div class="flex flex-col md:flex-row gap-8 items-center">
+      <img src="resources/hammock-fruit.jpg" alt="Breakfast with person on a hammock" class="rounded-lg w-full md:w-1/2 h-56 object-cover flex-shrink-0">
+      <div>
+        <h3 class="text-xl font-bold mb-3" style="font-family:'Merriweather',serif;">Bed & Breakfasts</h3>
+        <p class="text-gray-600 leading-relaxed">
+          There are many small, family-owned hotels and a growing number of bed and breakfasts.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row-reverse gap-8 items-center">
+      <img src="resources/health-inspector.jpg" alt="Luxury Beachfront Resorts" class="rounded-lg w-full md:w-1/2 h-56 object-cover flex-shrink-0">
+      <div>
+        <h3 class="text-xl font-bold mb-3" style="font-family:'Merriweather',serif;">Security is non-negotable for us</h3>
+        <p class="text-gray-600 leading-relaxed">
+          All types of lodging are strictly regulated and regularly inspected by the Tanitian government.
+        </p>
+      </div>
+    </div>
+
+
   </main>
 
   <footer class="bg-gray-800 text-gray-400 py-6 px-6 mt-auto">
